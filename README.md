@@ -37,6 +37,20 @@ ENGRAM is a zero-dependency MCP server that gives any AI tool a **persistent sec
 
 ---
 
+## Why You Need This
+
+**Without ENGRAM (New Session):**
+> **You:** "Hey, I need to add a new route to my API."
+> **AI:** "Sure! What framework are you using? Where are your routes located? Are you using JWT for auth?"
+> **You:** *(Sighs, pastes 5 files and explains the architecture again)*
+
+**With ENGRAM (New Session):**
+> **You:** "Call `wake_up()`. Then add a new route to my API."
+> **AI:** "Memory loaded. I see we're using Express with the `zod` validation middleware from yesterday. I'll place the route in `src/routes/` and protect it with your JWT guard. Here's the code."
+> **You:** 🤯
+
+---
+
 ## Works With Every AI Tool
 
 | Tool | Status |
