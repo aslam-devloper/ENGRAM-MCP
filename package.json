@@ -1,5 +1,5 @@
 {
-  "name": "@aslam-devloper/engram-mcp",
+  "name": "engram-ai-mcp",
   "version": "1.0.0",
   "description": "🧠 The AI's memory trace. Persistent context, checkpoints & skills for every AI tool — zero dependencies.",
   "type": "module",

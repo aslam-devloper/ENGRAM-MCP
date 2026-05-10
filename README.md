@@ -13,13 +13,13 @@
 
 *Give your AI a memory it doesn't deserve.*
 
-[![npm version](https://img.shields.io/npm/v/engram-mcp.svg?style=flat-square&color=7c3aed)](https://www.npmjs.com/package/engram-mcp)
+[![npm version](https://img.shields.io/npm/v/engram-ai-mcp.svg?style=flat-square&color=7c3aed)](https://www.npmjs.com/package/engram-ai-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
 [![MCP Compatible](https://img.shields.io/badge/MCP-Compatible-blue?style=flat-square)](https://modelcontextprotocol.io)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey?style=flat-square)](https://nodejs.org)
 [![Node](https://img.shields.io/badge/node-%3E%3D18-brightgreen?style=flat-square)](https://nodejs.org)
 
-[GitHub](https://github.com/aslam-devloper/ENGRAM-MCP) · [npm](https://www.npmjs.com/package/engram-mcp) · [Report a Bug](https://github.com/aslam-devloper/ENGRAM-MCP/issues)
+[GitHub](https://github.com/aslam-devloper/ENGRAM-MCP) · [npm](https://www.npmjs.com/package/engram-ai-mcp) · [Report a Bug](https://github.com/aslam-devloper/ENGRAM-MCP/issues)
 
 </div>
 
@@ -71,10 +71,10 @@ ENGRAM is a zero-dependency MCP server that gives any AI tool a **persistent sec
 
 ```bash
 # Run instantly without installing
-npx engram-mcp
+npx engram-ai-mcp
 
 # Or install globally for faster startup
-npm install -g engram-mcp
+npm install -g engram-ai-mcp
 engram-mcp
 ```
 
@@ -95,7 +95,7 @@ Edit your Claude Desktop config file:
   "mcpServers": {
     "engram": {
       "command": "npx",
-      "args": ["engram-mcp"]
+      "args": ["engram-ai-mcp"]
     }
   }
 }
@@ -114,13 +114,13 @@ Restart Claude Desktop → look for the 🔌 icon → ENGRAM is live.
   "mcpServers": {
     "engram": {
       "command": "cmd",
-      "args": ["/c", "npx", "engram-mcp"]
+      "args": ["/c", "npx", "engram-ai-mcp"]
     }
   }
 }
 ```
 
-After `npm install -g engram-mcp`:
+After `npm install -g engram-ai-mcp`:
 ```json
 {
   "mcpServers": {
@@ -141,7 +141,7 @@ Open MCP settings and add:
 {
   "engram": {
     "command": "npx",
-    "args": ["engram-mcp"]
+    "args": ["engram-ai-mcp"]
   }
 }
 ```
@@ -157,7 +157,7 @@ Open MCP settings and add:
 {
   "engram": {
     "command": "npx",
-    "args": ["engram-mcp"]
+    "args": ["engram-ai-mcp"]
   }
 }
 ```
@@ -172,7 +172,7 @@ Open MCP settings and add:
 ### Claude Code (CLI)
 
 ```bash
-claude --mcp-config '{"engram": {"command": "npx", "args": ["engram-mcp"]}}'
+claude --mcp-config '{"engram": {"command": "npx", "args": ["engram-ai-mcp"]}}'
 ```
 
 Or save permanently at `~/.claude/mcp.json`:
@@ -182,7 +182,7 @@ Or save permanently at `~/.claude/mcp.json`:
   "mcpServers": {
     "engram": {
       "command": "npx",
-      "args": ["engram-mcp"]
+      "args": ["engram-ai-mcp"]
     }
   }
 }
@@ -367,14 +367,14 @@ npm run dev
 
 ## Troubleshooting
 
-**`npx engram-mcp` not found**
+**`npx engram-ai-mcp` not found**
 → Check Node.js version: `node --version` (needs ≥ 18)
 
 **Tools not showing in Claude Desktop**
 → Restart Claude Desktop after editing config. Check the 🔌 toolbar icon.
 
 **Permission error on Windows**
-→ Use `cmd /c npx engram-mcp` in your config, or install globally first.
+→ Use `cmd /c npx engram-ai-mcp` in your config, or install globally first.
 
 **Where is my data?**
 → `~/.engram/` on all platforms, or wherever `$ENGRAM_HOME` points.
@@ -421,7 +421,7 @@ PRs welcome. Keep it:
 
 <div align="center">
 
-**[⭐ Star on GitHub](https://github.com/aslam-devloper/ENGRAM-MCP)** · **[Report Bug](https://github.com/aslam-devloper/ENGRAM-MCP/issues)** · **[npm](https://www.npmjs.com/package/engram-mcp)**
+**[⭐ Star on GitHub](https://github.com/aslam-devloper/ENGRAM-MCP)** · **[Report Bug](https://github.com/aslam-devloper/ENGRAM-MCP/issues)** · **[npm](https://www.npmjs.com/package/engram-ai-mcp)**
 
 *"The AI remembered. For once."*
 
